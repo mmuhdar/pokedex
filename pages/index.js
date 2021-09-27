@@ -3,7 +3,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 
 import Card from "../components/Card";
-
+// migrate to ubuntu
 export default function Home() {
   const [pokemon, setPokemon] = useState([]);
   useEffect(() => {
